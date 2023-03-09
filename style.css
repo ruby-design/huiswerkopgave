@@ -1,0 +1,177 @@
+body {
+    background: #a9a9a9;
+    color: #696868;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    width: 1000px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+h1 {font-size: 1.6em;
+    color: white;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 0.3em;
+}
+h2 {
+    color: #d90c6f;
+    font-weight: normal;
+    line-height: 1;
+    font-size: 1.4em;
+    margin-bottom: 0.3em;
+}
+p {margin-bottom: 1em;}
+
+ul {
+    list-style-type: disc;
+    margin: 0 1.5em 1.5em 0;
+}
+#header {
+    background-color: black;
+    padding: 32px 32px 0 46px;
+}
+#header-nav {
+height: 39px;
+text-align: right;
+color: #666;
+font-size: 1.2em;
+}
+#header-nav-link a {
+    color: #999;
+    text-decoration: none;
+}
+#header-nav-link a:hover {color: #ddd;}
+
+#header-nav-link span.text-seperator {
+    color: #444;
+    padding: 0 7px;
+}
+#logo {color: #fff}
+#site-title a {text-decoration: none;}
+#site-title, #site-title a {color: #fff;}
+#site-slogan {
+    color: #d90c6f;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#primaire-nav {
+    background-color: #e436a1;
+    min-height: 46px;
+    padding: 0 8px;
+}
+#primaire-nav a {
+    color: #eae6dd;
+    display: block;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 12px;
+}
+#primaire-nav a:hover {color: #fff;}
+
+ul.tab {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul.tab li {
+    float: left;
+    list-style: none;
+    }
+ul.tab a {text-decoration: none;}
+
+.inhoud {
+font-size: 1.1em;
+background-color: #fff;
+min-height: 300px;
+}
+.inhoud a {
+    color: #999;
+    text-decoration: none;
+}
+.inhoud a:hover {color: #000;}
+
+#tekst-inhoud {padding: 24px;}
+
+input[type="text"], 
+input[type="email"], 
+textarea, button
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: 15px 0px;
+    width: 500px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px grey;
+}
+textarea {height: 100px;}
+button {
+    background-color: #e436a1;
+    color: white;
+    font-weight: bold;
+}
+button:hover {
+    background-color: darkgrey;
+    color: white;
+}
+button:active {
+    background-color: black;
+    color: #e436a1;
+}
+#formspree {display: none;}
+
+table{
+    border-collapse: collapse;
+    width: 950px;
+}
+    td, th{
+        padding: 10px 5px;
+        background-color: lightgrey;
+        width: 50%;
+}
+th {text-align: left;
+    border-bottom: 3px solid #000;
+}
+img {
+    width: 200px;
+    float:left;
+    margin-right: 8px;
+}
+
+#voet-nav {
+    background: #808080;
+    border-top: 1px solid #999;
+    font-size: 1.1em;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+}
+#voet-nav a {
+    color: #ddd;
+    text-decoration: none;
+}
+#voet-nav a:hover {color: #fff;}
+
+#voet-nav span.text-seperator {
+    color: #999;
+    padding: 0 3px;
+}
+#footer {
+    color: #666;
+    padding: 0 6px 12px;
+    margin-top: -6px;
+}
+#footer a {
+    color: #555;
+    text-decoration: none;
+}
+#footer a:hover, #bottom .right a:hover {color: #002}
+#footer span.text-seperator {
+    color: #888;
+    padding: 0 3px;
+}
+#footer .right, #footer .right a {color: #777;}
+.left {float: left;}
+.right {float: right;}
