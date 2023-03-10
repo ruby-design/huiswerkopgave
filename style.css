@@ -140,13 +140,12 @@ img {
     float:left;
     margin-right: 8px;
 }
-
 #voet-nav {
     background: #808080;
     border-top: 1px solid #999;
     font-size: 1.1em;
     padding: 12px 16px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 #voet-nav a {
     color: #ddd;
@@ -161,7 +160,6 @@ img {
 #footer {
     color: #666;
     padding: 0 6px 12px;
-    margin-top: -6px;
 }
 #footer a {
     color: #555;
